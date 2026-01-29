@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Nayla Sari Sakinah</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #7b1e3a, #b03a5b);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+header h1 span {
+    color: #ffd6df;
+}
+
+/* SECTION */
+section {
+    padding: 60px 10%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #7b1e3a;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* SKILL */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+/* EXPERIENCE */
+.experience {
+    max-width: 800px;
+    margin: auto;
+}
+
+.exp-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #7b1e3a;
+    border-radius: 8px;
+}
+
+/* CERTIFICATE */
+.certificates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.cert-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.cert-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cert-card p {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.contact-box p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #7b1e3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="nay.jpeg" alt="Foto Profil">
+    <h1>Halo, Saya <span>Nayla Sari Sakinah</span></h1>
+    <p>Pelajar | Web Developer Pemula</p>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>👩‍💻 Tentang Saya</h2>
+    <p class="about">
+        Saya adalah seorang pelajar yang tertarik di bidang bisnis. 
+        Saya senang belajar hal baru dan ingin menjadi pengusaha sukses.
+    </p>
+</section>
+
+<!-- SKILL -->
+<section>
+    <h2>⚡ Skill</h2>
+    <div class="skills">
+        <div class="skill-box">Excel</div>
+        <div class="skill-box">Mengatur Keuangan</div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+    <h2>📚 Pengalaman</h2>
+    <div class="experience">
+        <div class="exp-item">
+            <h3>Bisnis Kecil-Kecilan</h3>
+            <p>2025</p>
+        </div>
+
+        <div class="exp-item">
+            <h3>PKL / Prakerin</h3>
+            <p>Input Data Dan Output Data.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATE -->
+<section>
+    <h2>🏆 Sertifikat</h2>
+    <div class="certificates">
+
+        <div class="cert-card">
+            <img src="sertif bisnis.jpeg" alt="Sertifikat 1">
+            <p>Sertifikat Bisnis</p>
+        </div>
+
+        <div class="cert-card">
+            <img src="sertif.jpeg" alt="Sertifikat 2">
+            <p>Sertifikat Huawei ICT Academy</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>📞 Kontak Saya</h2>
+    <div class="contact">
+        <div class="contact-box">
+            <p>📧 Email: naylasari@gmail.com</p>
+            <p>📱 WhatsApp: 085123366515</p>
+            <p>📍 Alamat: Indonesia</p>
+            <p>📸 Instagram: @naylasari</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 - Portfolio Nayla Sari Sakinah</p>
+</footer>
+
+</body>
+</html>
